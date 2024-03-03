@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7c7c7;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.principal-container{
+    width: 600px;
+    padding: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.image-omelette{
+    width: 600px;
+    border: none;
+    border-radius: 20px;
+}
+
+.title{
+    padding-bottom: 3px;
+}
+
+h3{
+    padding-bottom: 2px;
+    color: brown;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.description-omelette,
+.preparation-time,
+.ingredients,
+.instructions{
+    padding-bottom: 10px;
+}
+
+.divider{
+    padding-bottom: 3px;
+    background-color: #aaaaaa;
+}
+
+.preparation-time{
+    padding-top: 10px;
+    padding-left: 30px;
+    background-color: #fff1f1;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.nutrition-number{
+    color: brown;
+    font-weight: bolder;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 800px) {
+
+    body{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .principal-container{
+        width: 500px;
+    }
+    .image-omelette{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    body{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .principal-container{
+        width: 400px;
+    }
+    .image-omelette{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    body{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .principal-container{
+        width: 300px;
+    }
+    .image-omelette{
+        width: 300px;
+    }
+}
